@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PROGPOEst10439216.Data;
 
+
 namespace PROGPOEst10439216
 {
     public class Program
@@ -20,6 +21,7 @@ namespace PROGPOEst10439216
                 .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews();
+
 
             var app = builder.Build();
 

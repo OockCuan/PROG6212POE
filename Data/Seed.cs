@@ -11,15 +11,12 @@ namespace PROGPOEst10439216.Data
     {
         public static async Task InitializeAsync(IServiceProvider serviceProvider)
         {
-
             var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
             var userManager = serviceProvider.GetRequiredService<UserManager<IdentityUser>>();
             var context = serviceProvider.GetRequiredService<ApplicationDbContext>();
-            //migrating on launch of application to ensure all data is present
             context.Database.Migrate();
-            //array containing all the possible roles for a worker, and what the authorization is based on
-            string[] roles = { "HR", "Lecturer", "AcademicManager", "ProgramCoordinator" };
 
+            string[] roles = { "HR", "Lecturer", "AcademicManager", "ProgramCoordinator" };
             foreach (var roleName in roles)
             {
                 if (!await roleManager.RoleExistsAsync(roleName))
@@ -28,7 +25,6 @@ namespace PROGPOEst10439216.Data
                 }
             }
 
-            //information for hr role
             var hrEmail = "hr@email.com";
             var hrUser = await userManager.FindByEmailAsync(hrEmail);
             if (hrUser == null)
@@ -55,7 +51,22 @@ namespace PROGPOEst10439216.Data
                 await context.SaveChangesAsync();
             }
 
-            //information for academic manager role
+            
+            var hrProfile = await context.Profiles.FirstOrDefaultAsync(p => p.UserId == hrUser.Id);
+            if (hrProfile == null)
+            {
+                context.Profiles.Add(new Profiles
+                {
+                    UserId = hrUser.Id,
+                    Name = "HR",
+                    Surname = "Example",
+                    Department = "Admin",
+                    DefaultRatePerJob = 0,
+                    RoleName = "HR"
+                });
+                await context.SaveChangesAsync();
+            }
+
             var amEmail = "manager@email.com";
             var amUser = await userManager.FindByEmailAsync(amEmail);
             if (amUser == null)
@@ -75,7 +86,7 @@ namespace PROGPOEst10439216.Data
                     UserId = amUser.Id,
                     Name = "Academic",
                     Surname = "Manager",
-                    Department = "N/A",
+                    Department = "Admin",
                     DefaultRatePerJob = 0,
                     RoleName = "AcademicManager"
                 });
@@ -83,7 +94,21 @@ namespace PROGPOEst10439216.Data
                 await context.SaveChangesAsync();
             }
 
-            //information for programme coordinator role
+            var amProfile = await context.Profiles.FirstOrDefaultAsync(p => p.UserId == amUser.Id);
+            if (amProfile == null)
+            {
+                context.Profiles.Add(new Profiles
+                {
+                    UserId = amUser.Id,
+                    Name = "Academic",
+                    Surname = "Manager",
+                    Department = "Admin",
+                    DefaultRatePerJob = 0,
+                    RoleName = "AcademicManager"
+                });
+                await context.SaveChangesAsync();
+            }
+
             var pcEmail = "coordinator@email.com";
             var pcUser = await userManager.FindByEmailAsync(pcEmail);
             if (pcUser == null)
@@ -101,17 +126,31 @@ namespace PROGPOEst10439216.Data
                 context.Profiles.Add(new Profiles
                 {
                     UserId = pcUser.Id,
-                    Name = "Construction",
-                    Surname = "Manager",
+                    Name = "Alice",
+                    Surname = "Coord",
                     DefaultRatePerJob = 0,
-                    Department = "Construction",
-                    RoleName = "ConstructionManager"
+                    Department = "Project Mangemnet",
+                    RoleName = "ProgramCoordinator"
                 });
 
                 await context.SaveChangesAsync();
             }
 
-            //information for lecturer role 
+            var pcProfile = await context.Profiles.FirstOrDefaultAsync(p => p.UserId == pcUser.Id);
+            if (pcProfile == null)
+            {
+                context.Profiles.Add(new Profiles
+                {
+                    UserId = pcUser.Id,
+                    Name = "Alice",
+                    Surname = "Coord",
+                    DefaultRatePerJob = 0,
+                    Department = "Project Mangemnet",
+                    RoleName = "ProgramCoordinator"
+                });
+                await context.SaveChangesAsync();
+            }
+
             var lectEmail = "lecturer@email.com";
             var lectUser = await userManager.FindByEmailAsync(lectEmail);
             if (lectUser == null)
@@ -138,6 +177,22 @@ namespace PROGPOEst10439216.Data
 
                 await context.SaveChangesAsync();
             }
+
+            var lectProfile = await context.Profiles.FirstOrDefaultAsync(p => p.UserId == lectUser.Id);
+            if (lectProfile == null)
+            {
+                context.Profiles.Add(new Profiles
+                {
+                    UserId = lectUser.Id,
+                    Name = "Kevin",
+                    Surname = "Lecturer",
+                    DefaultRatePerJob = 150,
+                    Department = "Programming",
+                    RoleName = "Lecturer"
+                });
+                await context.SaveChangesAsync();
+            }
         }
+
     }
 }

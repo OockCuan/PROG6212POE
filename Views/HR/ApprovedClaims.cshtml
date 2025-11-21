@@ -1,0 +1,57 @@
+﻿<div class="mb-4 d-flex justify-content-between align-items-center">
+    
+    @if (TempData["Message"] != null)
+    {
+        <span class="badge bg-info text-dark">@TempData["Message"]</span>
+    }
+</div>
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2 class="mb-0">Approved Claims</h2>
+    <div>
+        <a class="btn btn-primary me-2" asp-controller="HR" asp-action="Export">Export CSV</a>
+        
+    </div>
+</div>
+
+@if (Model == null)
+{
+    <div class="alert alert-info text-center">
+        No claims
+    </div>
+}
+else
+{
+    <table class="table text-secondary align-middle">
+        <thead>
+            <tr>
+                <th>Claim Number</th>
+                <th>Lecturer</th>
+                <th>Documentation</th>
+                <th>Total Overtime (Hours)</th>
+                <th>Overtime Due</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var claim in Model)
+            {
+                if (claim.Status == "Accepted")
+                {
+                    <tr>
+                        <td>@claim.ClaimId</td>
+                        <td>@claim.Lecturer</td>
+                        <td>
+                            @claim.Documentation
+                        </td>
+                        <td>@claim.Hours</td>
+                        <td>@((decimal)claim.Hours * claim.Rate)</td>
+
+                        
+                    </tr>
+                }
+
+            }
+        </tbody>
+    </table>
+}

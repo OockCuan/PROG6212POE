@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PROGPOEst10439216")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b68e71d7d7b47a69dfe16e609392ed028566a746")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2f0ce0a5bffd54a1b831dac71f5ca25656a85a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("PROGPOEst10439216")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PROGPOEst10439216")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
