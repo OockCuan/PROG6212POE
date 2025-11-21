@@ -39,7 +39,7 @@ namespace PROGPOEst10439216.Data
                     Email = hrEmail,
                     EmailConfirmed = true
                 };
-                await userManager.CreateAsync(hrUser, "password");
+                await userManager.CreateAsync(hrUser, "@1passForLogin");
                 await userManager.AddToRoleAsync(hrUser, "HR");
 
                 context.Profiles.Add(new Profiles
@@ -67,7 +67,7 @@ namespace PROGPOEst10439216.Data
                     EmailConfirmed = true
                 };
 
-                await userManager.CreateAsync(amUser, "password");
+                await userManager.CreateAsync(amUser, "@1passForLogin");
                 await userManager.AddToRoleAsync(amUser, "AcademicManager");
 
                 context.Profiles.Add(new Profiles
@@ -95,7 +95,7 @@ namespace PROGPOEst10439216.Data
                     EmailConfirmed = true
                 };
 
-                await userManager.CreateAsync(pcUser, "password");
+                await userManager.CreateAsync(pcUser, "@1passForLogin");
                 await userManager.AddToRoleAsync(pcUser, "ProgramCoordinator");
 
                 context.Profiles.Add(new Profiles
@@ -123,7 +123,7 @@ namespace PROGPOEst10439216.Data
                     EmailConfirmed = true
                 };
 
-                await userManager.CreateAsync(lectUser, "password");
+                await userManager.CreateAsync(lectUser, "@1passForLogin");
                 await userManager.AddToRoleAsync(lectUser, "Lecturer");
 
                 context.Profiles.Add(new Profiles

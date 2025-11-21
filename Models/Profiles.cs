@@ -4,10 +4,9 @@ namespace PROGPOEst10439216.Models
 {
     public class Profiles
     {
+        [Key]
         public int Id { get; set; }
-
-
-        [Required]
+        
         public string UserId { get; set; }
 
 
