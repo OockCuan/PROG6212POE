@@ -83,7 +83,7 @@ namespace PROGPOEst10439216.Data
                 await context.SaveChangesAsync();
             }
 
-            //information for project coordinator role
+            //information for programme coordinator role
             var pcEmail = "coordinator@email.com";
             var pcUser = await userManager.FindByEmailAsync(pcEmail);
             if (pcUser == null)

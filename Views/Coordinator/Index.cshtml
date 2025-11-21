@@ -1,9 +1,5 @@
-﻿@using PROGPOEst10439216.Controllers
-
-
-
-<div class="mb-4 d-flex justify-content-between align-items-center">
-    <h2 class="text-secondary mb-0">Academic Manager</h2>
+﻿<div class="mb-4 d-flex justify-content-between align-items-center">
+    <h2 class="text-secondary mb-0">Programme Coordinator</h2>
     @if (TempData["Message"] != null)
     {
         <span class="badge bg-info text-dark">@TempData["Message"]</span>
@@ -32,7 +28,7 @@ else
         <tbody>
             @foreach (var claim in Model)
             {
-                if (claim.Status == "Forwarded")
+                if (claim.Status == "Pending")
                 {
                     <tr>
                         <td>@claim.ClaimId</td>
@@ -44,13 +40,13 @@ else
                         <td>@((decimal)claim.Hours * claim.Rate)</td>
 
                         <td class="d-flex gap-2">
-                            <form asp-controller="Manager" asp-action="Accept" method="post" class="m-0">
+                            <form asp-controller="Coordinator" asp-action="Accept" method="post" class="m-0">
                                 @Html.AntiForgeryToken()
                                 <input type="hidden" name="id" value="@claim.Id" />
                                 <button type="submit" class="btn btn-outline-primary">Accept</button>
                             </form>
 
-                            <form asp-controller="Manager" asp-action="Reject" method="post" class="m-0">
+                            <form asp-controller="Coordinator" asp-action="Reject" method="post" class="m-0">
                                 @Html.AntiForgeryToken()
                                 <input type="hidden" name="id" value="@claim.Id" />
                                 <button type="submit" class="btn btn-danger">Reject</button>
@@ -63,4 +59,3 @@ else
         </tbody>
     </table>
 }
-
