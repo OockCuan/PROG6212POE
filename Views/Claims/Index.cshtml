@@ -1,0 +1,57 @@
+﻿@using PROGPOEst10439216.Controllers
+
+<div class="container mt-4">
+
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="mb-0">Claims</h2>
+        <a class="btn btn-secondary text-white" asp-controller="Claims" asp-action="Create">New Claim</a>
+    </div>
+
+    @if (Model == null)
+    {
+        <div class="alert alert-info text-center">
+            No claims have been submitted yet.<br />
+            <a class="btn btn-primary mt-2" asp-controller="Claims" asp-action="Create">Create a new claim</a>
+        </div>
+    }
+    else
+    {
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>Claim Number</th>
+                    <th>Status</th>
+                    <th>Documentation</th>
+                    <th>Total Overtime (Hours)</th>
+                    <th>Lecturer</th>
+                    <th>Rate</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var claim in Model)
+                {
+
+                    <tr>
+                        <td>@claim.ClaimId</td>
+                        @if (claim.Status == "Pending" || claim.Status == "Forwarded")
+                        {
+                            <td class="text-warning">@claim.Status</td>
+                        }
+                        else if (claim.Status == "Accepted")
+                        {
+                            <td class="text-success">@claim.Status</td>
+                        }
+                        else
+                        {
+                            <td class="text-danger">@claim.Status</td>
+                        }
+                        <td>@claim.Documentation</td>
+                        <td>@claim.Hours</td>
+                        <td>@claim.Lecturer</td>
+                        <td>@claim.Rate.ToString("C")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

@@ -1,0 +1,43 @@
+﻿@model PROGPOEst10439216.Models.Claims
+
+<div class="container mt-5">
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+        @Html.AntiForgeryToken()
+
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+        <div class="mb-4">
+            <label asp-for="Hours" class="form-label">Overtime hours</label>
+            <input asp-for="Hours" class="form-control" type="number" step="0.01" min="0" />
+            <span asp-validation-for="Hours" class="text-danger"></span>
+        </div>
+
+        <div class="mb-4">
+            <label asp-for="Rate" class="form-label">Rate</label>
+            <input asp-for="Rate" class="form-control" type="number" step="0.01" min="0" />
+            <span asp-validation-for="Rate" class="text-danger"></span>
+        </div>
+
+        <div class="mb-4">
+            <label asp-for="Lecturer" class="form-label">Lecturer</label>
+            <input asp-for="Lecturer" class="form-control" placeholder="e.g. Dr. Adams" />
+            <span asp-validation-for="Lecturer" class="text-danger"></span>
+        </div>
+
+        <div class="mb-4">
+            <label asp-for="Notes" class="form-label">Notes (optional)</label>
+            <textarea asp-for="Notes" class="form-control" rows="3"></textarea>
+            <span asp-validation-for="Notes" class="text-danger"></span>
+        </div>
+
+
+        <div class="mb-3">
+            <label class="form-label">Upload supporting docs</label>
+            <input class="form-control" type="file" name="uploadFile" />
+
+        </div>
+
+        <button type="submit" class="btn btn-primary me-2">Submit</button>
+        <a class="btn btn-secondary" asp-controller="Claims" asp-action="Index">Back</a>
+    </form>
+</div>

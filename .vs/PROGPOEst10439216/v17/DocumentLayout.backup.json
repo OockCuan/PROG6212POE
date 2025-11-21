@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|c:\\users\\lab_services_student\\desktop\\github\\prog6212poe\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|c:\\users\\lab_services_student\\desktop\\github\\prog6212poe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|c:\\users\\lab_services_student\\desktop\\github\\prog6212poe\\controllers\\claimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|solutionrelative:controllers\\claimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|c:\\users\\lab_services_student\\desktop\\github\\prog6212poe\\data\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|solutionrelative:data\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|c:\\users\\lab_services_student\\desktop\\github\\prog6212poe\\models\\claims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|solutionrelative:models\\claims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|c:\\users\\lab_services_student\\desktop\\github\\prog6212poe\\models\\profiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|solutionrelative:models\\profiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|c:\\users\\lab_services_student\\desktop\\github\\prog6212poe\\views\\claims\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|solutionrelative:views\\claims\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|c:\\users\\lab_services_student\\desktop\\github\\prog6212poe\\views\\claims\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|solutionrelative:views\\claims\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|c:\\users\\lab_services_student\\desktop\\github\\prog6212poe\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|c:\\users\\lab_services_student\\desktop\\github\\prog6212poe\\models\\claims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|solutionrelative:models\\claims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|c:\\users\\lab_services_student\\desktop\\github\\prog6212poe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|c:\\users\\lab_services_student\\desktop\\github\\prog6212poe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|c:\\users\\lab_services_student\\desktop\\github\\prog6212poe\\controllers\\claimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|solutionrelative:controllers\\claimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4CB4251-3368-422F-90E2-AA866CAE60B5}|PROGPOEst10439216.csproj|c:\\users\\lab_services_student\\desktop\\github\\prog6212poe\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +62,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\Views\\Claims\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Claims\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\Views\\Claims\\Index.cshtml",
+              "RelativeToolTip": "Views\\Claims\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T09:27:29.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\Views\\Claims\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Claims\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\Views\\Claims\\Create.cshtml",
+              "RelativeToolTip": "Views\\Claims\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T09:27:19.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
@@ -71,20 +105,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAB4AAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-21T09:23:56.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "20251121085857_testone.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\Data\\Migrations\\20251121085857_testone.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20251121085857_testone.cs",
@@ -96,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "20251121084128_initial.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\Data\\Migrations\\20251121084128_initial.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20251121084128_initial.cs",
@@ -114,14 +148,14 @@
               "RelativeDocumentMoniker": "Data\\Seed.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\Data\\Seed.cs",
               "RelativeToolTip": "Data\\Seed.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAArwIIAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAArwH0AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T07:52:58.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Profiles.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\Models\\Profiles.cs",
               "RelativeDocumentMoniker": "Models\\Profiles.cs",
@@ -129,11 +163,12 @@
               "RelativeToolTip": "Models\\Profiles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T07:50:49.864Z"
+              "WhenOpened": "2025-11-21T07:50:49.864Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -145,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Claims.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\Models\\Claims.cs",
               "RelativeDocumentMoniker": "Models\\Claims.cs",
@@ -157,19 +192,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "ClaimsController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\Controllers\\ClaimsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClaimsController.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\Controllers\\ClaimsController.cs",
               "RelativeToolTip": "Controllers\\ClaimsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T07:35:39.082Z"
+              "WhenOpened": "2025-11-21T07:35:39.082Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -181,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
