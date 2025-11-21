@@ -1,0 +1,66 @@
+﻿@using PROGPOEst10439216.Controllers
+
+
+
+<div class="mb-4 d-flex justify-content-between align-items-center">
+    <h2 class="text-secondary mb-0">Academic Manager</h2>
+    @if (TempData["Message"] != null)
+    {
+        <span class="badge bg-info text-dark">@TempData["Message"]</span>
+    }
+</div>
+
+@if (Model == null)
+{
+    <div class="alert alert-info text-center">
+        No claims
+    </div>
+}
+else
+{
+    <table class="table text-secondary align-middle">
+        <thead>
+            <tr>
+                <th>Claim Number</th>
+                <th>Lecturer</th>
+                <th>Documentation</th>
+                <th>Total Overtime (Hours)</th>
+                <th>Overtime Due</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var claim in Model)
+            {
+                if (claim.Status == "Forwarded")
+                {
+                    <tr>
+                        <td>@claim.ClaimId</td>
+                        <td>@claim.Lecturer</td>
+                        <td>
+                            @claim.Documentation
+                        </td>
+                        <td>@claim.Hours</td>
+                        <td>@((decimal)claim.Hours * claim.Rate)</td>
+
+                        <td class="d-flex gap-2">
+                            <form asp-controller="Manager" asp-action="Accept" method="post" class="m-0">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@claim.ClaimId" />
+                                <button type="submit" class="btn btn-outline-primary">Accept</button>
+                            </form>
+
+                            <form asp-controller="Manager" asp-action="Reject" method="post" class="m-0">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@claim.ClaimId" />
+                                <button type="submit" class="btn btn-danger">Reject</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+
+            }
+        </tbody>
+    </table>
+}
+
