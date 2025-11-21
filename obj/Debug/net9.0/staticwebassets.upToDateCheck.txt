@@ -62,11 +62,14 @@ wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
 wwwroot\uploads\0642ca36-6d35-41f9-8e5f-3a673f394772.jpg
+wwwroot\uploads\1c3517d4-2379-44a5-9720-1212bd90a664.jpg
 wwwroot\uploads\1f46cb0d-640d-490f-895f-4c62da2081c0.jpg
 wwwroot\uploads\2b260dfd-6f40-4d38-bf1f-cbbfe4ffef6d.jpg
 wwwroot\uploads\427c4a65-8b22-416d-bec1-0ef3b4e29c80.jpg
 wwwroot\uploads\5ccf231b-8cf1-417a-b910-255521819252.jpg
+wwwroot\uploads\67184f14-4fe8-4da8-8682-5c156c9d6b91.jpg
 wwwroot\uploads\8f09494a-0485-4d06-8289-c71b46ee4648.jpg
+wwwroot\uploads\f7c019d6-2f12-4ade-ad89-3bb0db5fc786.jpg
 C:\Users\lab_services_student\Desktop\Github\PROG6212POE\wwwroot\css\site.css
 C:\Users\lab_services_student\Desktop\Github\PROG6212POE\wwwroot\favicon.ico
 C:\Users\lab_services_student\Desktop\Github\PROG6212POE\wwwroot\js\site.js

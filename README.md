@@ -1,4 +1,10 @@
 # PROG6212POE
+Link to github
+https://github.com/OockCuan/PROG6212POE.git 
+
+Demonstrational video 
+https://youtu.be/ptZxu7fDj5w 
+
 
 This application is a claims system. Whereby lecturers can submit overtime claims for approval from management of different roles
 
@@ -12,3 +18,21 @@ For this part of the poe, login features using identity was added. This means th
 
 PLEASE NOTE
 references for this poe are included in the word doc as well as PowerPoint presentation 
+
+Login info
+
+PLEASE NOTE
+EVERYTHING HAS THE SAME PASSWORD "@1passForLogin"
+
+Lecturers emails
+kyle@email.com
+lecturer@email.com
+
+Programme coordinator
+coordinator@email.com
+
+Academic manager 
+manager@email.com
+
+HR
+hr@email.com
