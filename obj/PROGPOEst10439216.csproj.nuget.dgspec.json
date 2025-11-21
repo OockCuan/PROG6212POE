@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lab_services_student\\source\\repos\\PROGPOEst10439216\\PROGPOEst10439216.csproj": {}
+    "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\PROGPOEst10439216.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lab_services_student\\source\\repos\\PROGPOEst10439216\\PROGPOEst10439216.csproj": {
+    "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\PROGPOEst10439216.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lab_services_student\\source\\repos\\PROGPOEst10439216\\PROGPOEst10439216.csproj",
+        "projectUniqueName": "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\PROGPOEst10439216.csproj",
         "projectName": "PROGPOEst10439216",
-        "projectPath": "C:\\Users\\lab_services_student\\source\\repos\\PROGPOEst10439216\\PROGPOEst10439216.csproj",
+        "projectPath": "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\PROGPOEst10439216.csproj",
         "packagesPath": "C:\\Users\\lab_services_student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lab_services_student\\source\\repos\\PROGPOEst10439216\\obj\\",
+        "outputPath": "C:\\Users\\lab_services_student\\Desktop\\Github\\PROG6212POE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
