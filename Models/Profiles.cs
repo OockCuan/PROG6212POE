@@ -6,32 +6,19 @@ namespace PROGPOEst10439216.Models
     {
         [Key]
         public int Id { get; set; }
-        
         public string UserId { get; set; }
-
-
         [Required]
-        [StringLength(50)]
-        public string Name { get; set; }
-
-
-        [Required]
-        [StringLength(50)]
-        public string Surname { get; set; }
-
-
-        [Required]
-        [StringLength(50)]
         public string Department { get; set; }
 
+        [Required]
+        public string Surname { get; set; }
 
         [Required]
-        [Range(0, 999999)]
+        public string Name { get; set; }
+
+        [Required]
         public decimal DefaultRatePerJob { get; set; }
-
-
         [Required]
-        [StringLength(50)]
         public string RoleName { get; set; }
     }
 }

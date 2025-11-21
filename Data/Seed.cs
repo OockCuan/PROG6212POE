@@ -192,6 +192,50 @@ namespace PROGPOEst10439216.Data
                 });
                 await context.SaveChangesAsync();
             }
+
+            var kyleEmail = "kyle@email.com";
+            var kyleUser = await userManager.FindByEmailAsync(kyleEmail);
+            if (kyleUser == null)
+            {
+                kyleUser = new IdentityUser
+                {
+                    UserName = kyleEmail,
+                    Email = kyleEmail,
+                    EmailConfirmed = true
+                };
+
+                await userManager.CreateAsync(kyleUser, "@1passForLogin");
+                await userManager.AddToRoleAsync(kyleUser, "Lecturer");
+
+                context.Profiles.Add(new Profiles
+                {
+                    UserId = kyleUser.Id,
+                    Name = "Kyle",
+                    Surname = "Example",
+                    DefaultRatePerJob = 100,
+                    Department = "Education",
+                    RoleName = "Lecturer"
+                });
+
+                await context.SaveChangesAsync();
+            }
+
+            var kyleProfile = await context.Profiles.FirstOrDefaultAsync(p => p.UserId == kyleUser.Id);
+            if (kyleProfile == null)
+            {
+                context.Profiles.Add(new Profiles
+                {
+                    UserId = kyleUser.Id,
+                    Name = "Kyle",
+                    Surname = "Example",
+                    DefaultRatePerJob = 100,
+                    Department = "Education",
+                    RoleName = "Lecturer"
+                });
+                await context.SaveChangesAsync();
+            }
+
+
         }
 
     }
